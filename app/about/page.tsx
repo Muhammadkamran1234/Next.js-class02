@@ -1,6 +1,11 @@
+import Link from "next/link"; 
 export default function About() {
+
     return (
-      <h1>  my name is kamran</h1>
+      <div>
+      <h1 className="text-orange-600"> My Name is Muhammad Kamran</h1>
+      <Link href='./' className="text-purple-500">Go to Home page </Link>
+      </div>
     );
   }
   

@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Home() {
   return ( <div>
-    <ul  className='flex gap-5 bg-green-500' >
+    <ul  className='flex gap-5 bg-green-500 w-200' >
  <li> <Link href='/'> Home</Link> </li>
  <li> <Link href='/about'>About</Link></li>
  <li> <Link href='/contact-us'>Contact us </Link> </li>
